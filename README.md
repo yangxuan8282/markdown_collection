@@ -7,31 +7,40 @@ Markdown 由 [John Gruber](http://daringfireball.net/) 创造。其使得用户�
 一些用途:
 
 - 写作
+
 - 记录待办事项
+
 - 时间轴 timeline: [markline](https://www.npmjs.com/package/markline)
+
 - 演示 presentation: [marp](https://github.com/yhatt/marp)
+
 - gitbook
 
 ...
+
 
 常用语法：
 
 - 标题
 
-````#一级标题````
-````##二级标题````
-````###三级标题````
+\#一级标题
+
+\##二级标题
+
+\###三级标题
 
 依次显示为
 
 #一级标题
+
 ##二级标题
+
 ###三级标题
 
 
 - 分割线
 
-````---```` 或 ````***````
+\-\-\- 或 \*\*\*
 
 显示为
 
@@ -44,48 +53,41 @@ Markdown 由 [John Gruber](http://daringfireball.net/) 创造。其使得用户�
 
         ````
         - foo
+
         - fooo
+
         - foooo
         ````
 
         显示为
 
         - foo
+
         - fooo
+
         - foooo
 
     - 有序列表
 
-
 - 超链接
 
-````[w3schools](http://www.w3schools.com/)````
+````
+[w3schools](http://www.w3schools.com/)
+````
 
 显示为
+
 [w3schools](http://www.w3schools.com/)
 
 - 图片
 
-````![](url)````
-
+````
+![](url)
+````
 
 - 代码
 
-````
-```python
-s = "Python syntax highlighting"
-print s
-```
-````
-
-显示为
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-或者代码区块前统一缩进四个空格或一个 <kbd>TAB</kbd>
+代码区块前统一缩进四个空格或一个 <kbd>TAB</kbd>
 
 
 - 换行
@@ -98,19 +100,29 @@ print s
 编辑器 (按平台):
 
 - Win: [MarkdownPad 2](http://markdownpad.com/)
+
 - Android:
+
     - MarkdownX: [Google Play](https://play.google.com/store/apps/details?id=com.ryeeeeee.markdownx&hl=zh), [酷安](http://coolapk.com/apk/com.ryeeeeee.markdownx)
+
     - neutriNote: [Google Play](https://play.google.com/store/apps/details?id=com.appmindlab.nano), [酷安](http://coolapk.com/apk/com.appmindlab.nano) (支持数学公式)
+
     - Writeily Pro: [Google Play](https://play.google.com/store/apps/details?id=me.writeily), [酷安](http://coolapk.com/apk/me.writeily.pro)
+
 - Chrome: [noteroot Editor](https://chrome.google.com/webstore/detail/noteroot-editor/migeiocipmppkdjahehpchaechhbohbo?utm_source=chrome-app-launcher-info-dialog) (支持数学公式)
 
 - 跨平台:
+
     - [Atom](https://atom.io/) + [Markdown Preview Plus](https://atom.io/packages/markdown-preview-plus) 插件 (按 <kbd>ctrl-shift-m</kbd> 启用预览；支持数学公式)
+
     - [Visual Studio Code](https://code.visualstudio.com)
+
     - [Typora](https://www.typora.io)
 
 - 在线编辑器/博客平台:
+
     - [Cmd Markdown](https://www.zybuluo.com/mdeditor#344907)
+
     - [简书](http://www.jianshu.com/)
 
 
@@ -122,15 +134,14 @@ Tips:
 
 - 输入公式(需编辑器支持):
 
- 比如
-$$
-E = mc^2
-$$
+ 比如想输入
 
-是由以下字符得来的:
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/4ffd15697f84951ae199ef319645c6add13fcb8a)
+
+可以输入:
 
     $$
-    E = mc^2
+    E_0 = mc^2
     $$
 
 详细的用法见最后 “有用的链接” 部分
@@ -151,14 +162,6 @@ $$
             </video>
         ````
 
-        显示为
-
-        <video id="video" controls="" preload="none" width="480" height="244"
-        poster="http://i0.hdslb.com/u_user/5b3c86b2251400dfe5aaf21a8ffa7378.jpg">
-            <source id="mp4" src="http://ws.acgvideo.com/c/7b/6857045-1.mp4?wsTime=1474479606&wsSecret2=f6964fbbcb6bb916271fd5f7aa642301&oi=1780870356&internal=1" type="video/mp4">
-            <p>Your user agent does not support the HTML5 Video element.</p>
-           </video>
-
         - iframe
 
     - 插入缩略图，点击后跳转
@@ -166,8 +169,6 @@ $$
     ````
     [![](http://i0.hdslb.com/u_user/5b3c86b2251400dfe5aaf21a8ffa7378.jpg)](http://ws.acgvideo.com/c/7b/6857045-1.mp4?wsTime=1474479606&wsSecret2=f6964fbbcb6bb916271fd5f7aa642301&oi=1780870356&internal=1)
     ````
-
-    [![](http://i0.hdslb.com/u_user/5b3c86b2251400dfe5aaf21a8ffa7378.jpg)](http://ws.acgvideo.com/c/7b/6857045-1.mp4?wsTime=1474479606&wsSecret2=f6964fbbcb6bb916271fd5f7aa642301&oi=1780870356&internal=1)
 
 
 有用的链接:
