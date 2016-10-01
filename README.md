@@ -14,6 +14,10 @@ Markdown 由 [John Gruber](http://daringfireball.net/) 创造。其使得用户�
 
 - 演示 presentation: [marp](https://github.com/yhatt/marp)
 
+- 项目管理: [Yash](https://github.com/xumingming/yash)
+
+- 生成图表: [mermaid](https://knsv.github.io/mermaid/)
+
 - gitbook
 
 ...
