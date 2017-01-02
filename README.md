@@ -21,7 +21,6 @@ Markdown 由 [John Gruber](http://daringfireball.net/) 创造。其使得用户�
 - gitbook
 
 - 可视化：[visdown](https://github.com/amitkaps/visdown)
-...
 
 
 常用语法：
